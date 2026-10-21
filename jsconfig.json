@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "tests/*": ["tests/*"]
+    },
+    "module": "esnext",
+    "target": "es2020",
+    "allowJs": true,
+    "checkJs": false,
+    "types": ["k6"]
+  },
+  "include": ["src/**/*.js", "tests/**/*.js"],
+  "exclude": ["node_modules", ".k6-build", "dashboard-report"]
+}

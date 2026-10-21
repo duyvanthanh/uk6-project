@@ -1,0 +1,25 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+reports/
+test-results/
+*.log
+.k6-build/
+dashboard-report/
+inspect-report/
+/error_log.json
+/error_log.raw.json
+
+# Locally built k6 binaries
+/k6
+/k6.exe
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
